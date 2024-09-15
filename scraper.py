@@ -238,7 +238,3 @@ def create_maps(locations, filename="map_file_john_obidi.html"):
     m.save(filename)
 
 
-# Scrape the data from the instagram profile and store in the variable data
-data = scrape_instagram(CONSUMER_KEY,CONSUMER_SECRET,username,10)
-# Extract the locations
-posts = extract_location(data,10)
